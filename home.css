@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+body {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  radial-gradient(#0c1e7f 1.6500000000000001px, transparent 1.6500000000000001px), radial-gradient(#0c1e7f 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
+  background-size: 66px 66px;
+  background-position: 0 0,33px 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.wave {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  overflow: hidden;
+  filter: drop-shadow(0 0 1rem #ff008e);
+}
+.input {
+  text-align: center;
+  outline: none;
+  width: 40%;
+  height: 60px;
+  border-radius: 30px;
+  padding: 2rem;
+  border: 3px solid #ff008e;
+  font-size: 3rem;
+  transition: border .5s ease-in-out;
+}
+.input:focus{
+  border: 3px solid #0c1e7f;
+  transition: border .5s ease-in-out;
+}
+.play{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  width: 20%;
+  height: 60px;
+  margin: 20px;
+  line-height: 60px;
+  color: #e5e5f7;
+  border-radius: 30px;
+  background: #0c1e7f;
+  transition: background .5s ease-in-out;
+  cursor: pointer;
+  z-index: 100;
+
+}
+.play:hover{
+  background: #1a2fa1;
+  transition: background .5s ease-in-out;
+}
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 18%;
+}
