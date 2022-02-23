@@ -1,4 +1,4 @@
 $(document).ready(function () {
-  $(".s").slidein();
+  $(".letraS").fadeIn();
 
 });
