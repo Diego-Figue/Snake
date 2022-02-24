@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Snake.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="partida.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="partida.js"></script>
   </head>
   <body>
-    <div class="campo">
-      <a href="#" class="start">START</a>
-      <div class="snake"></div>
+    <div class="plantilla">
+      <div class="columa1">
+        <div class="cajaInfo">
+          <img src="img/Snake.png" class="logoPartida" alt="" srcset="" />
+          <span class="line"></span>
+          <h1 class="tituloInfoP">Jugador:</h1>
+          <label class="nombreJugador"></label>
+          <h1 class="tituloInfoP">Puntaje:</h1>
+          <label class="puntos">x</label>
+          <h1 class="tituloInfoP">Tiempo:</h1>
+          <label class="tiempo">_:</label>
+          <span class="line"></span>
+          <button id="btnVolver" class="btn">Volver</button>
+          <button id="btnEmpezar" class="btn">Empezar</button>
+          <button id="btnReintentar" class="btn">Reintentar</button>
+          <button id="btnTablaPosicion" class="btn">Posiciones</button>
+        </div>
+      </div>
+
+      <div class="columna2">
+        <div class="cajaJuego">
+          <div class="campoJuego">
+            
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
