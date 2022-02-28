@@ -1,0 +1,4 @@
+/*velocidad juego
+    tamañomapa
+    colision
+    */

@@ -23,7 +23,7 @@ body {
   animation: changeColorBg 1s ease-in-out infinite;
   height: 90vh;
 }
-@keyframes changeColorBg {
+@keyframes changeColorBg { /* tiempos de una animacion*/
   0%{
     background-color: #e5e5f7;
     opacity: 1;
@@ -80,8 +80,8 @@ body {
   overflow: hidden;
 }
 .waveRelleno {
-  filter: drop-shadow(0 0 1rem #ff008e);
-  animation: changeColor 2.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 1rem #ff008e); /* drop-shadow(offset-x offset-y blur-radius color)  30px 10px 4px #4444dd    0 -6mm 4mm rgb(160, 0, 210)   0 0 0.75rem crimson*/
+  animation: changeColor 2.5s ease-in-out infinite; /* animate( properties [, duration ] [, easing ] [, complete ] )*/
 }
 @keyframes changeColor {
   0% {
@@ -152,7 +152,7 @@ body {
   animation: animacion 1s 1.1s ease-in-out infinite;
 }
 .letraA {
-  animation: animacion 1s 1.2s ease-in-out infinite;
+  animation: animacion 1s 1.2s ease-in-out infinite;/* animate( properties [, duration ] [, easing ] [, complete ] )*/
 }
 .letraK {
   animation: animacion 1s 1.3s ease-in-out infinite;

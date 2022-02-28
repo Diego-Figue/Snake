@@ -8,9 +8,9 @@ $(document).ready(function () {
     console.log(nick);
 
     if (nick === "" || nick === "") {
-      Swal.fire("¡Espera!", "Debes Ingresar Un Nombre", "error");
+      Swal.fire("¡Espera!", "Debes Ingresar Un Nombre", "error");/*anuncio*/
     } else {
-      window.location.replace("partida.html?nick=" + nick);
+      window.location.replace("partida.html?nick=" + nick);/*usa metodo get y envia informacion visible, ? variableparametro "= + variable)*/
     }
   });
 });
